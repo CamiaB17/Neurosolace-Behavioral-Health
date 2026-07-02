@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | NeuroSolace Behavioral Health</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav id="navbar">
+  <a href="index.html" class="nav-logo">
+    <img src="FullLogo_Transparent_NoBuffer.png" alt="NeuroSolace Logo" class="logo-img">
+    <div class="nav-logo-text">
+      <span>NeuroSolace</span>
+      <span>Behavioral Health</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="insurance.html">Insurance</a></li>
+    <li><a href="faqs.html">FAQs</a></li>
+    <li><a href="contact.html" class="nav-active">Contact</a></li>
+    <li><a href="contact.html" class="nav-cta">Book Now</a></li>
+  </ul>
+  <button class="hamburger" id="menuBtn"><span></span><span></span><span></span></button>
+</nav>
+<div class="mobile-nav" id="mobileNav">
+  <button class="close-btn" id="closeBtn">×</button>
+  <a href="index.html#about" class="mob-link">About</a>
+  <a href="services.html" class="mob-link">Services</a>
+  <a href="insurance.html" class="mob-link">Insurance</a>
+  <a href="faqs.html" class="mob-link">FAQs</a>
+  <a href="contact.html" class="mob-link">Contact</a>
+  <a href="contact.html" class="mob-link">Book Now</a>
+</div>
+
+<div class="page-hero">
+  <div class="page-hero-inner">
+    <div class="section-label">Reach Us</div>
+    <h1 class="page-title">Get in Touch &amp; Book an Appointment</h1>
+    <p class="page-subtitle">Tell us a bit about yourself and what's going on, and our team will follow up within three business days to schedule your visit. For urgent matters, please call us directly.</p>
+  </div>
+</div>
+
+<main class="page-main">
+  <section id="contact" style="background: var(--ink);">
+    <div>
+      <div class="section-label reveal">Contact Information</div>
+      <h2 class="section-title reveal">Let's Connect</h2>
+      <div class="contact-details">
+        <div class="contact-item reveal">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div class="contact-item-text">
+            <span>Location</span>
+            <p>7375 Executive Place, Suite 400<br>Lanham, MD 20706</p>
+          </div>
+        </div>
+        <div class="contact-item reveal">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.13h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.72A16 16 0 0 0 15.29 16l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7a2 2 0 0 1 1.73 2.02z"/></svg>
+          </div>
+          <div class="contact-item-text">
+            <span>Phone</span>
+            <p><a href="tel:3013967713">301-396-7713</a></p>
+          </div>
+        </div>
+        <div class="contact-item reveal">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <div class="contact-item-text">
+            <span>Email</span>
+            <p><a href="mailto:info@neurosolace.com">info@neurosolace.com</a></p>
+          </div>
+        </div>
+        <div class="contact-item reveal">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div class="contact-item-text">
+            <span>Office Hours</span>
+            <p>Mon – Fri: 9:00 AM – 5:00 PM<br>Sat – Sun: Closed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <div class="field reveal">
+            <label>First Name</label>
+            <input type="text" id="firstName" placeholder="Jane" required />
+          </div>
+          <div class="field reveal">
+            <label>Last Name</label>
+            <input type="text" id="lastName" placeholder="Doe" required />
+          </div>
+        </div>
+        <div class="field reveal">
+          <label>Email</label>
+          <input type="email" id="email" placeholder="jane@example.com" required />
+        </div>
+        <div class="field reveal">
+          <label>Phone</label>
+          <input type="tel" id="phone" placeholder="(301) 000-0000" required />
+        </div>
+        <div class="field reveal">
+          <label>Insurance Provider</label>
+          <select id="insurance" required>
+            <option value="">Select your insurance</option>
+            <option>United Health Care / Optum</option>
+            <option>BlueCross Blue Shield</option>
+            <option>Aetna</option>
+            <option>Cigna</option>
+            <option>Self-Pay (Sliding Scale)</option>
+          </select>
+        </div>
+        <div class="field reveal">
+          <label>Member ID (if insured)</label>
+          <input type="text" id="memberId" placeholder="Member ID number" />
+        </div>
+        <div class="form-row">
+          <div class="field reveal">
+            <label>Preferred Date</label>
+            <input type="date" id="preferredDate" />
+          </div>
+          <div class="field reveal">
+            <label>Preferred Time</label>
+            <select id="preferredTime">
+              <option value="">No preference</option>
+              <option>Morning (9am–12pm)</option>
+              <option>Early Afternoon (12–3pm)</option>
+              <option>Late Afternoon (3–5pm)</option>
+            </select>
+          </div>
+        </div>
+        <div class="field reveal">
+          <label>Reason for Booking</label>
+          <textarea id="message" rows="4" placeholder="Share what's bringing you in — this helps us prepare before we reach out to schedule your visit." required></textarea>
+        </div>
+        <button type="submit" class="btn-send reveal">Send Message</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-logo"><span>NeuroSolace</span><span>Behavioral Health</span></div>
+  <div class="footer-links">
+    <a href="services.html">Services</a>
+    <a href="insurance.html">Insurance</a>
+    <a href="faqs.html">FAQs</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html">Book Now</a>
+  </div>
+  <div class="footer-contact">
+    <a href="tel:3013967713">301-396-7713</a>
+    <a href="mailto:info@neurosolace.com">info@neurosolace.com</a>
+  </div>
+  <div class="footer-copy">© 2026 NeuroSolace Behavioral Health · Lanham, MD 20706</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="main.js"></script>
+<script src="contact.js"></script>
+</body>
+</html>
