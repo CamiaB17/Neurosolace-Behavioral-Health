@@ -1236,3 +1236,20 @@ footer {
   .page-hero-inner { padding: 4rem 6vw 3rem; }
   .inner-section { padding: 3rem 6vw 4rem; }
 }
+
+.form-disclaimer {
+  background: rgba(255, 255, 255, 0.06);
+  border-left: 4px solid #e0a030;
+  padding: 14px 16px;
+  margin-bottom: 24px;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9);
+}
+.form-disclaimer strong {
+  display: block;
+  margin-bottom: 4px;
+  color: #fff;
+}
+.form-disclaimer p { margin: 0; }
